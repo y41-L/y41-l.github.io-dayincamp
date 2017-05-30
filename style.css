@@ -38,7 +38,7 @@ div#coverimg {
     margin-left: 269px;
     border-bottom-style: solid;
     border-color: silver;
-    height: 300px;
+    height: 301px;
     border-width: 1px;
     max-width: 800px;
     position: fixed;
@@ -50,7 +50,7 @@ div#coverimg {
 .leftbut {
     background-color: white;
     position: relative;
-    max-width: 215px;
+    max-width: 222px;
     padding: 5px 3px;
     margin-top: 315px;
     margin-left: 269px;
@@ -91,7 +91,7 @@ div#coverimg {
 
 div#black {
     background-color: black;
-    height: 2652px;
+    height: 3982px;
     max-width: 800px;
     display: block;
     margin: 0 auto;
@@ -106,8 +106,8 @@ div#content {
     position: absolute;
     left: 510px;
     top: 315px;
-    max-width: 546px;
-    height: 2100px;
+    max-width: 567px;
+    height: 3450px;
     border-top: 1px solid silver;
     border-left: 1px solid silver;
     padding: 10px;
@@ -148,6 +148,12 @@ p#cc {
     text-align: center;
     font-style: italic;
     font-size: 12px;
+}
+
+img#autoslide {
+    width: 100%;
+    display: block;
+    margin: auto;
 }
 
 * {
