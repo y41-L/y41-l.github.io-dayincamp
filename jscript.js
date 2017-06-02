@@ -44,3 +44,18 @@ function show() {
     slide[index - 1].style.display = "block";
     setTimeout(show, 2000);
 }
+
+var index2 = 0;
+show2();
+
+function show2() {
+    var y;
+    var slide2 = document.getElementsByClassName("slide2");
+    for (y = 0; y < slide2.length; y++) {
+        slide2[y].style.display = "none";
+    }
+    index2++;
+    if (index2 > slide2.length) { index2 = 1 }
+    slide2[index2 - 1].style.display = "block";
+    setTimeout(show2, 2000);
+}
