@@ -208,10 +208,17 @@ img#autoslide {
     font-weight: bold;
 }
 
-* {
-    box-sizing: border-box
-}
-
 .slide {
     display: none;
+}
+
+.slide2 {
+  display: none;
+}
+
+img#autoslide2 {
+    width: 100%;
+    display: block;
+    margin: auto;
+    height: 500px;
 }
